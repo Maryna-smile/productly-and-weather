@@ -1,24 +1,27 @@
 body {
-  background: #3399CC;
- border: 25px solid #2B81AC;
- color: #fff;
- font-size: 22px;
+  background: #3399cc;
+  border: 25px solid #2b81ac;
+  color: #fff;
+  font-size: 22px;
 }
 
 .container {
   width: 1170px;
   margin: 0 auto;
 }
+
 .cite-title {
   margin-top: 66px;
- margin-bottom: 40px;
- font-size: 21px;
+  margin-bottom: 40px;
+  font-size: 21px;
 }
+
 .wi {
   display: inline-block;
   margin-top: 4px;
   font-size: 42px;
 }
+
 .wi-sunset {
   font-size: 27px;
 }
@@ -28,104 +31,93 @@ body {
   text-align: center;
   margin: 0 auto;
   border: 1px solid #fff;
- 
+
   transition: all 250ms ease;
 }
-/* .forecast-list:hover  {
-  opacity: 0.7;
-} */
-/* .forecast-list:hover.forecast-item {
-  opacity: 1;
- } */
 
- /* .forecast-list:hover.block {
-  opacity: 1;
- } */
- .block:hover {
+.forecast-list:hover .block {
+  opacity: 0.7;
+ }
+ .forecast-list:hover .block:hover  {
   opacity: 1;
  }
+
 .block {
   height: 147px;
   border: 2px solid #fff;
-  opacity: 0.5;
-}
+ }
+
 .forecast-item {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.forecast-item {
-  opacity: 1;
-}
+
 .first-line-bg1 {
-  width:50%;
-  background: #3399CC;
+  width: 50%;
+  background: #3399cc;
 }
-.first-line-bg1:hover {
-  opacity: 1;
- } 
 
 .city {
   padding-top: 26px;
 }
+
 .city-weather {
-display: flex;
-justify-content: center;
-align-items: center;
-gap:11px;
-margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  margin-top: 4px;
 }
+
 .first-line-bg2 {
-  width:25%;
-  background:#33CCCC;
+  width: 25%;
+  background: #33cccc;
 }
-.first-line-bg2:hover {
-  opacity: 1;
-}
+
 .first-line-bg3 {
-  width:25%;
+  width: 25%;
   background: #996699;
 }
 
 .second-line-bg1 {
-  width:25%;
-  background: #C24747;
+  width: 25%;
+  background: #c24747;
 }
 
 .second-line-bg2 {
-  width:25%;
-  background: #E2674A;
+  width: 25%;
+  background: #e2674a;
 }
 .second-line-bg3 {
-  width:25%;
-  background: #FFCC66;
+  width: 25%;
+  background: #ffcc66;
 }
 .second-line-bg4 {
-  width:25%;
-  background: #99CC99;
+  width: 25%;
+  background: #99cc99;
 }
 
 .third-line-bg1 {
-  width:25%;
+  width: 25%;
   background: #669999;
 }
 
 .third-line-bg2 {
-  width:50%;
-  background: #CC6699;
+  width: 50%;
+  background: #cc6699;
 }
 .third-line-bg3 {
-  width:25%;
+  width: 25%;
   background: #339966;
 }
 
 .fours-line-bg {
-  width:100%;
-   background: #666699;
+  width: 100%;
+  background: #666699;
 }
 footer {
   margin-top: 37px;
   margin-bottom: 119px;
   font-size: 16px;
 }
-
